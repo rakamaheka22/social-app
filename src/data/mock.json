@@ -1,0 +1,136 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "Sakit hati sumpah, gak dihargain gitu.",
+      "isLiked": true,
+      "createdDate": "2023-08-30T20:46:47.694Z",
+      "userId": 1,
+      "user": {
+        "id": 1,
+        "name": "Asep",
+        "image": "https://i.pravatar.cc/150?img=68"
+      },
+      "comments": [
+        {
+          "id": 1,
+          "content": "Masa sih?",
+          "postId": 1,
+          "userId": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "kenapa izin sakit harus selalu pake surat dokter? emg kalian tiap sakit ke dokter? kan bisa aja cuma perlu istirahat doang gitu",
+      "isLiked": false,
+      "createdDate": "2023-08-30T20:30:47.694Z",
+      "userId": 2,
+      "user": {
+        "id": 2,
+        "name": "Jajang",
+        "image": "https://i.pravatar.cc/150?img=66"
+      },
+      "comments": []
+    },
+    {
+      "id": 3,
+      "content": "gilaa balik2 mandi seger bgt, panasnya ga ngotak masa😔🥲",
+      "isLiked": false,
+      "createdDate": "2023-08-30T20:10:47.694Z",
+      "userId": 3,
+      "comments": [],
+      "user": {
+        "id": 3,
+        "name": "Siti",
+        "image": "https://i.pravatar.cc/150?img=47"
+      }
+    },
+    {
+      "id": 4,
+      "content": "Maaf ya, sedang tidak bisa dijadikan tempat bergantung.. Gimana mau support org, support sendiri aja udah berasa pedih banget",
+      "isLiked": false,
+      "createdDate": "2023-08-30T17:10:47.694Z",
+      "userId": 4
+    },
+    {
+      "id": "1693475118",
+      "content": "Hello world!!!!!",
+      "isLiked": true,
+      "createdDate": "2023-08-31T09:45:18.276Z",
+      "userId": 5,
+      "comments": [],
+      "user": {
+        "id": 5,
+        "name": "Raka",
+        "image": "https://i.pravatar.cc/150?img=33"
+      }
+    },
+    {
+      "id": "1693475196",
+      "content": "selamat sore dunia",
+      "isLiked": true,
+      "createdDate": "2023-08-31T09:46:36.436Z",
+      "userId": 5,
+      "comments": [],
+      "user": {
+        "id": 5,
+        "name": "Raka",
+        "image": "https://i.pravatar.cc/150?img=33"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Masa sih?",
+      "postId": 1,
+      "userId": 4
+    },
+    {
+      "id": "1693475310",
+      "content": "selamat sore jugaaa",
+      "postId": "1693475196",
+      "userId": 5
+    },
+    {
+      "id": "1693475335",
+      "content": "testttt",
+      "postId": "1693475196",
+      "userId": 5
+    },
+    {
+      "id": "1693475340",
+      "content": "hello",
+      "postId": "1693475196",
+      "userId": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Asep",
+      "image": "https://i.pravatar.cc/150?img=68"
+    },
+    {
+      "id": 2,
+      "name": "Jajang",
+      "image": "https://i.pravatar.cc/150?img=66"
+    },
+    {
+      "id": 3,
+      "name": "Siti",
+      "image": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "id": 4,
+      "name": "Putri",
+      "image": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 5,
+      "name": "Raka",
+      "image": "https://i.pravatar.cc/150?img=33"
+    }
+  ]
+}
